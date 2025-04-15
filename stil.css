@@ -50,7 +50,7 @@ h3 {
 nav {
             font-family: "Poppins", sans-             serif;
             text-transform: uppercase;
-            font-weight: bold;
+            font-weight: normal;
             position: sticky;
             top: 0;
             background-color: #556B2F;
@@ -58,7 +58,7 @@ nav {
             padding: 1rem 0;
             text-align: center;
             align-items: center;
-            
+            font-size: 1.2rem;
         }
 
         nav a {
