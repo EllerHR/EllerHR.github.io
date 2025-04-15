@@ -1,0 +1,176 @@
+
+body {
+            font-family: "Baskervville", serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #F0FFF0;
+            padding: 5rem 0rem 1rem 0rem;
+            text-align: center;
+            align-items: center;
+        }
+
+        header h1 {
+          font-family: "Poppins", sans-serif;
+            margin: 0;
+            font-size: 4rem;
+            line-height: 4rem;
+          
+        }
+
+.subtitle {
+   max-width:600px;
+   text-align: left;
+   margin: 0 auto;
+   padding: 2rem 2rem 0rem 2rem;
+}
+
+/* TYPOGRAFI */
+
+h3 {
+  font-family: "Baskervville", serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1.3;
+  
+}
+
+        nav {
+            font-family: "Poppins", sans-             serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            background-color: #556B2F;
+            z-index: 1000;
+            padding: 1rem 0;
+            text-align: center;
+            align-items: center;
+            
+        }
+
+        nav a {
+            margin: 0 2rem;
+            text-decoration: none;
+            color: #F0FFF0;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            opacity: 0.7;
+        }
+
+      h2 {
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+      }
+    
+    p {
+      font-size: 1rem;
+      padding: 0;
+    }
+
+         
+        .blog {
+            padding: 2rem;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .blog-post {
+            margin-bottom: 3rem;
+        }
+
+        .blog-post img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .blog-post h2 {
+            margin: 0.5rem 0;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 5rem;
+            background-color: #f4f4f4;
+        }
+
+        .about img {
+            max-width: 200px;
+            margin-bottom: 1rem;
+        
+        }
+
+        .about .text {
+            max-width: 600px;
+            text-align: center;
+            color: #2F4F4F
+        }
+        .minatjänster {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 5rem;
+            background-color: #f9f9f9;
+        }
+
+        .minatjänster img {
+            max-width: 200px;
+            margin-bottom: 1rem;
+        
+        }
+
+        .minatjänster .text {
+            max-width: 600px;
+        }
+
+.contact-links {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center; /* Centers the links */
+    margin-top: 1rem;
+}
+
+.contact-links a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 1rem;
+  width: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* LinkedIn
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}*/
+
+}
+.nav {background-color: #808000
+}
