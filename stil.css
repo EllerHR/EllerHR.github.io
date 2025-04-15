@@ -1,4 +1,4 @@
-
+/* BODY */
 body {
             font-family: "Baskervville", serif;
             line-height: 1.6;
@@ -6,7 +6,8 @@ body {
             padding: 0;
         }
 
-        header {
+/* HEADER */
+header {
             background-color: #F0FFF0;
             padding: 5rem 0rem 1rem 0rem;
             text-align: center;
@@ -28,7 +29,13 @@ body {
    padding: 2rem 2rem 0rem 2rem;
 }
 
-/* TYPOGRAFI */
+.innehall {
+   max-width: 700px;
+   text-align: left;
+   margin: 0 auto;
+   padding: 2rem 2rem 0rem 2rem;
+  
+}
 
 h3 {
   font-family: "Baskervville", serif;
@@ -38,7 +45,8 @@ h3 {
   
 }
 
-        nav {
+/* NAVIGERING */
+nav {
             font-family: "Poppins", sans-             serif;
             text-transform: uppercase;
             font-weight: bold;
@@ -72,7 +80,7 @@ h3 {
       }
     
     p {
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 0;
     }
 
@@ -116,7 +124,7 @@ h3 {
             text-align: center;
             color: #2F4F4F
         }
-        .minatjänster {
+        .minatjanster {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -125,7 +133,7 @@ h3 {
             background-color: #f9f9f9;
         }
 
-        .minatjänster img {
+        .minatjanster img {
             max-width: 200px;
             margin-bottom: 1rem;
         
