@@ -8,7 +8,7 @@ body {
 
 /* HEADER */
 header {
-            background-color: #F0FFF0;
+            background-color: #FFFFFFF;
             padding: 5rem 0rem 1rem 0rem;
             text-align: center;
             align-items: center;
@@ -30,6 +30,7 @@ header {
 }
 
 .innehall {
+   background-color: #F0FFF0; 
    max-width: 700px;
    text-align: left;
    margin: 0 auto;
