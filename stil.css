@@ -19,7 +19,7 @@ header {
             margin: 0;
             font-size: 4rem;
             line-height: 4rem;
-            
+          
         }
 
 .subtitle {
@@ -58,13 +58,14 @@ nav {
             padding: 1rem 0;
             text-align: center;
             align-items: center;
-            font-size: 1.2rem;
+            
         }
 
         nav a {
             margin: 0 2rem;
             text-decoration: none;
-            color: #FFFFF;
+            color: #F0FFF0;
+            font-size: 1.2rem;
         }
 
         nav a:hover {
@@ -180,6 +181,41 @@ nav {
   color: white;
 }*/
 
-}
 .nav {background-color: #808000
+}
+
+
+/*Testkod för dubbel bakgrund, vilka är url-adresserna?*/
+
+#double_background_index {
+  position: relative;
+  height: 300px;
+  width: 800px;
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Fjallenskyline%283%29.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    /*infoga url till logga och bild*/
+}
+
+/*Testkod för att fylla skärmen på bredden medbakgrundsbild*/
+.hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Bakgrund_index.png');
+  background-size: cover;  /* eller 'contain' beroende på effekt */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff; /* valfritt, visas om bilden inte fyller hela ytan */
+}
+
+.logga {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: 500px;
+  z-index: 10;
 }
