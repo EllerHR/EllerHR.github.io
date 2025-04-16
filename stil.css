@@ -190,7 +190,7 @@ nav {
   width: 100%;
   aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
   background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Bakgrundcroppad3_index.png');
-  background-size: cover;  /* eller 'cover' beroende på effekt */
+  background-size: cover;  /* eller 'contain' beroende på effekt */
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fff;
