@@ -16,7 +16,7 @@ header {
         }
 /* NAVIGERING */
 nav {
-            font-family: "Poppins", sans-             serif;
+            font-family: "Poppins", sans-serif;
             text-transform: uppercase;
             font-weight: normal;
             position: sticky;
@@ -315,7 +315,7 @@ textarea{
   position: relative;
   width: 100%;
   aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
-  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Index%20bild%20kontor');
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Index%20hero.png');
   background-size: cover;  /* eller 'contain' beroende på effekt */
   background-position: center;
   background-repeat: no-repeat;
@@ -338,7 +338,7 @@ textarea{
   position: relative;
   width: 100%;
   aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
-  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Bakgrundcroppad3_index.png');
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Kontakt_hero.png');
   background-size: cover;  /* eller 'contain' beroende på effekt */
   background-position: center;
   background-repeat: no-repeat;
@@ -350,6 +350,6 @@ textarea{
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
-  height: 450px;
+  height: 600px;
   z-index: 10;
 }
