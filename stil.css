@@ -87,7 +87,7 @@ nav {
             font-weight: bold;
             font-size: 2.6rem;
             line-height: 2.6rem;
-            margin: 3rem 3rem;
+            margin: 3rem 0rem 3rem 0rem;
             padding: 0rem; 
         }
 
@@ -151,7 +151,7 @@ nav {
 	justify-content:center;/* Centers the links */
 	align-items:center;
 	height:100vh;/* Gör att rutan växer med innehållet */
-	font-family:"Baskervville", sans serif;
+	font-family:"Baskervville", sans-serif;
 	}
 
 .form-group {
@@ -179,10 +179,12 @@ nav {
     border-style:none none none none;
     width:100%;
     font-size:1.25em;
+    font-family: "Baskervville", sans-serif;
         }
 
   .form-control::placeholder {
       color:#aaa;
+      font-family: "Baskervville", sans-serif;
       }
 
 input:focus,
