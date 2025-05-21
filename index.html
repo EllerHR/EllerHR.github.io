@@ -1,65 +1,355 @@
- <!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <title>Eller HR</title>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="stil.css">  
-</head>
-  
-<body>
+/* BODY */
+body {
+            background-color: #F0FFF0;          
+            font-family: "Baskervville", serif;
+            line-height: 1,9;
+            margin: 0;
+            padding: 0;
+        }
 
-  <header>
- <div class="heroindex">
-  <img 
-    src="https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/inverterad logga-transparent(1).png" 
-    alt="Fridas logga" 
-    class="logga">
-</div>
+/* HEADER */
+header {
+            background-color: #F0FFF0;
+            padding: 0rem 0rem 0rem 0rem;
+            text-align: center;
+            align-items: center;
+        }
+/* NAVIGERING */
+nav {
+            font-family: "Poppins", sans-serif;
+            text-transform: uppercase;
+            font-weight: normal;
+            position: sticky;
+            top: 0;
+            background-color: #556B2F;
+            z-index: 1000;
+            padding: 1rem 0;
+            text-align: center;
+            align-items: center;
+        }
+
+        nav a {
+            margin: 2rem;
+            text-decoration: none;
+            color: #F0FFF0;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            opacity: 0.7;
+            color: #000;
+        }
+
+        
+/*LISTOR*/ 
+        ul {
+          list-style: none;
+          padding: 0;
+         }
+
+         ul li {
+          position: relative;
+          padding-left: 30px; /* Justera efter behov */
+          }
+
+         ul li::before {
+           content: "";
+           position: absolute;
+           left: 0;
+           top: 50%;
+           transform: translateY(-50%);
+           width: 18px;
+           height: 21px;
+           background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/logga%20listpunkt.png');
+           background-size: contain;
+           background-repeat: no-repeat;
+          }
+
+        ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.3rem;
+          }
+
+        ul li a:hover {
+            text-decoration: none;
+            opacity: 0.7;
+            color: #556B2F;
+           }
+
+
+/*RUBRIKER*/  
+
+  h1 {
+            font-family: "Baskervville", serif;
+            font-weight: bold;
+            font-size: 2.6rem;
+            line-height: 2.6rem;
+            margin: 3rem 3rem;
+            padding: 0rem; 
+        }
+
+  h2 {
+            font-family: "Baskervville", serif;
+            font-weight: normal;
+            font-size: 2.0rem;
+            line-height: 2.0rem;
+            margin: 0rem;
+            padding: 0rem;
+      }
+
+  h3 {
+            font-family: "Baskervville", serif;
+            font-size: 1.5rem;
+            font-weight: normal;
+            line-height: 1.5;
+            margin: 0rem;
+            padding: 0rem; 
+      }   
+
+/*CENTRERADE RUBRIKER*/ 
+  .hc {
+  text-align: center;
+      } 
+  
+
+/*BRÖDTEXT*/
+  
+    p {
+      font-size: 1.4rem;
+      padding: 0rem;
+      marigin: 0rem;
+    }
+
+    .brodtext {
+            max-width:700px;
+            background-color: #F0FFF0;
+            text-align: left;
+            margin: 0 auto; 
+            padding: 0rem 0rem 0rem 0rem;
+        }
     
-    <nav>
-      <a href="index.html">Hem</a>
-      <a href="minatjanster.html">Mina tjänster</a>
-      <a href="ommig.html">Om Mig</a>
-      <a href="blogg.html">Blogg</a>
-      <a href="kontakt.html">Kontakt</a>
-    </nav>
-  </header>
+    .poesi {
+           margin: 2rem;
+           padding: 0rem;
+           background-color: #F0FFF0;
+	         font-style: italic;
+           text-align: center;
+        }
 
-  <main>
-    <section class="brodtext">
-      <h1>Välkommen till Eller HR‽</h1>
-      <p>
-        Kan man leda ett framgångsrikt företag med styrprinciper som medmänsklighet eller hållbarhet? Kan man använda välmående eller en känsla av gemenskap som nyckeltal? Ja, självklart kan man, och faktiskt bör man.
-        
-        <br><br> Jag som driver Eller HR? heter Frida Oskarsson och erbjuder organisations- och HR-konsultation, på kristen grund.
-        
-        <br><br>
-        Utgångspunkten för mig är <b>övertygelsen</b> att människan har blivit tilldelad ett särskilt ansvar för att förvalta skapelsen; natur och människor; var och en utifrån de förmågor de har fått.
-        <br><br>
-        
-        Jag <b>tror</b> att människor har en gudagiven skaparkraft; en drivkraft att ”dra sitt strå till stacken” och göra positiv skillnad för sina medresenärer, samt att vi, när vi inte får utlopp för detta, blir främlingar för oss själva och andra.
-        <br><br> 
-        
-        Jag <b>hoppas</b> att ni som är företagare och entreprenörer i grund och botten vill axla ansvaret för att skapa ”mervärde” i form av mening, gemenskap och tillväxt för era medarbetare, genom det arbete de utför för er.
-        <br><br> 
-        
-        I grund och botten handlar det om <b>OSA</b> (organisatorisk- och social arbetsmiljö) eller, lite vardagligare uttryckt; om att <b>”få vara sig själv” på jobbet.</b> Det gäller såväl chefer som medarbetare.
-        <br><br> 
-        
-        Du behöver inte själv vara kristen för att nyttja <a href="minatjanster.html">mina tjänster</a> men det skadar inte om du delar min övertygelse, min tro och mitt hopp.
-        <br><br>  
-        
-        <a href="ommig.html">Här</a> kan du läsa mer om mig; min professionella och personliga bakgrund.
-      </p>
-    </section>
-  </main>
+/*FORMULÄR*/
 
-</body>
-</html>
+.container { 
+				width: 700px;
+				}
+
+.form {
+	display:flex;
+  flex-direction: column; /* <-- detta gör det vertikalt */
+	justify-content:center;/* Centers the links */
+	align-items:center;
+	height:100vh;/* Gör att rutan växer med innehållet */
+	font-family:"Baskervville", sans serif;
+	}
+
+.form-group {
+            margin-bottom: 1.5 em;
+             }
+
+  .form-label {
+              font-size: 0.75 em;
+              color: 556B2F;
+              display:block;/* Gör så att texten hamnar ovanför textrutan */
+              }
+
+  .form-content {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              max-width: 600px;
+              gap: 0.5rem; /* Mellanrum mellan blocken */
+              }
+
+  .form-control{
+    box-shadow: none;
+    border-radius:0;
+    border-color:#ccc;
+    border-style:none none none none;
+    width:100%;
+    font-size:1.25em;
+        }
+
+  .form-control::placeholder {
+      color:#aaa;
+      }
+
+input:focus,
+textarea:focus {
+            border-color: #556B2F;
+            box-shadow: 0 0 5px #556B2F;
+            outline: none;
+            }
+
+/*
+   .form-control:focus {
+     outline:outline:none;
+     box-shadow:none;
+     border-color:#ccc;
+     color:#000000;
+          }*/
+          
+.btn { 
+			background:#fff;
+      border:1px solid #aaa;
+      border-radius:3px;
+      color:#556B2F;
+      font-size:1.25em;
+      padding: 6px 15px;
+				}
+
+    .btn:hover{
+            text-decoration: none;
+            border-color: #000000;
+            color: #000000;
+              }
+
+textarea{ 
+				resize:none;
+				}
+
+
+/*Test att ta bort
+        .blog {
+            padding: 2rem;
+            background-color: #F0FFF0;
+            text-align: center;
+        }
+
+        .blog-post {
+            margin-bottom: 3rem;
+        }
+
+        .blog-post img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .blog-post h2 {
+            margin: 0.5rem 0;
+        }*/
+
+        .about img {
+            max-width: 200px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .about .text {
+            max-width: 600px;
+            text-align: center;
+            color: #2F4F4F
+        }
+        .minatjanster {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 5rem;
+            background-color: #F0FFF0;
+        }
+
+        .minatjanster img {
+            max-width: 200px;
+            margin-bottom: 1rem;
+        
+        }
+
+        .minatjänster .text {
+            max-width: 600px;
+        }
+
+.contact-links {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center; /* Centers the links */
+    margin-top: 1rem;
+}
+
+.contact-links a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 1rem;
+  width: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* LinkedIn
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}*/
+
+.nav {background-color: #808000
+}
+
+/*BAKGRUNDSBILDER & LOGGA*/
+
+.heroindex {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Index%20hero.png');
+  background-size: cover;  /* eller 'contain' beroende på effekt */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  
+}
+
+.heroommig {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Ommig%20hero.png');
+  background-size: cover;  /* eller 'contain' beroende på effekt */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.herokontakt {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 8 / 3; /* Justeras efter bildens proportioner */
+  background-image: url('https://raw.githubusercontent.com/EllerHR/EllerHR.github.io/main/Kontakt_hero.png');
+  background-size: cover;  /* eller 'contain' beroende på effekt */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+
+.logga {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: 600px;
+  z-index: 10;
+}
