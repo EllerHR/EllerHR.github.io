@@ -2,7 +2,7 @@
 body {
             background-color: #F0FFF0;          
             font-family: "Baskervville", serif;
-            line-height: 1,9;
+            line-height: 1.9;
             margin: 0;
             padding: 0;
         }
@@ -120,7 +120,7 @@ nav {
     p {
       font-size: 1.4rem;
       padding: 0rem;
-      marigin: 0rem;
+      margin: 0rem;
     }
 
     .brodtext {
@@ -155,12 +155,12 @@ nav {
 	}
 
 .form-group {
-            margin-bottom: 1.5 em;
+            margin-bottom: 1.5em;
              }
 
   .form-label {
-              font-size: 0.75 em;
-              color: 556B2F;
+              font-size: 0.75em;
+              color: #556B2F;
               display:block;/* Gör så att texten hamnar ovanför textrutan */
               }
 
